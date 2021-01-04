@@ -129,6 +129,20 @@
           "mapped": "SetEverythingUp"
         }
       ]
+    },
+    {
+      "original": "^",
+      "mapped": "IntroCutscene",
+      "methods": [
+        {
+          "original": "ICGEDEDFJFM",
+          "mapped": "BeginImpostor"
+        },
+        {
+          "original": "MKDJLGEGEGC",
+          "mapped": "BeginCrewmate"
+        }
+      ]
     }
   ]
 }
