@@ -236,26 +236,6 @@
     },
     {
       "original": {},
-      "mapped": "VersionShower",
-      "methods": [
-        {
-          "original": {
-            "name": "Start",
-            "signature": "System.Void ()"
-          }
-        }
-      ],
-      "fields": [
-        {
-          "original": {
-            "index": 0,
-            "name": "text"
-          }
-        }
-      ]
-    },
-    {
-      "original": {},
       "mapped": "PingTracker",
       "methods": [
         {
@@ -424,20 +404,12 @@
       ]
     },
     {
-      "original": {},
+      "original": "^",
       "mapped": "IntroCutscene",
       "nested": [
         {
           "original": 0,
           "mapped": "CoBegin__d"
-        }
-      ],
-      "fields": [
-        {
-          "original": {
-            "name": "IntroStinger",
-            "signature": "UnityEngine.AudioClip"
-          }
         }
       ]
     },
