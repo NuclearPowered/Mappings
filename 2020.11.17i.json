@@ -7,22 +7,22 @@
       "methods": [
         {
           "notes": "MeetingHud#CastVote",
-          "original": "EIGGEKBEOEA",
+          "original": "FDEOGELDDNB",
           "mapped": "CheckForEndVoting"
         },
         {
           "notes": "void (byte[], GameData.PlayerInfo, bool)",
-          "original": "KGIPOIOFBJH",
+          "original": "CJJPNGLIKPG",
           "mapped": "VotingComplete"
         },
         {
           "notes": "MeetingHud#VotingComplete",
-          "original": "FBNKEAEKKJE",
+          "original": "HNKODEOFMHJ",
           "mapped": "PopulateResults"
         },
         {
           "notes": "MeetingHud#VotingComplete",
-          "original": "ECLBANBAFCN",
+          "original": "DOKALIBCJAN",
           "mapped": "SetupProceedButton"
         }
       ]
@@ -33,16 +33,16 @@
       "methods": [
         {
           "notes": "ShipStatus#FixedUpdate",
-          "original": "ECNNLBKGIKE",
+          "original": "COMGOKDBOMH",
           "mapped": "CheckEndCriteria"
         },
         {
           "notes": "CheckEndCriteria",
-          "original": "PLBGOMIEONF",
+          "original": "OLCLMBLFEJJ",
           "mapped": "RpcEndGame"
         },
         {
-          "original": "NJOJCFDGEAE",
+          "original": "CANBADGMALM",
           "mapped": "SelectInfected"
         }
       ]
@@ -53,7 +53,7 @@
       "methods": [
         {
           "notes": "Last call in ServerManager#Awake",
-          "original": "BBIDOJKFGPM",
+          "original": "LEDMLBCFNMP",
           "mapped": "LoadServers"
         }
       ]
@@ -63,18 +63,16 @@
       "mapped": "PlayerControl",
       "methods": [
         {
-          "notes": "Only method with [CallerCount(2)] and PlayerControl ()",
-          "original": "OAFBLFBAOJJ",
+          "original": "POFAKNIFLNL",
           "mapped": "FindClosestTarget"
         },
         {
           "notes": "first call in CmdReportDeadBody",
-          "original": "MKAIDPJOJFP",
+          "original": "NOBBNMOGIAE",
           "mapped": "ReportDeadBody"
         },
         {
-          "notes": "Only method with [CallerCount(1)] and void (byte[])",
-          "original": "OJPCECLPCCF",
+          "original": "LJCEMLLOIKB",
           "mapped": "SetInfected"
         }
       ]
@@ -85,7 +83,7 @@
       "methods": [
         {
           "notes": "first call in EndGameManager#Start",
-          "original": "MFIBPNBCMKM",
+          "original": "NJEDFELIJKE",
           "mapped": "SetEverythingUp"
         }
       ]
@@ -95,11 +93,11 @@
       "mapped": "IntroCutscene",
       "methods": [
         {
-          "original": "ICGEDEDFJFM",
+          "original": "DLONAONDMHK",
           "mapped": "BeginImpostor"
         },
         {
-          "original": "MKDJLGEGEGC",
+          "original": "FFHNJEGBMFF",
           "mapped": "BeginCrewmate"
         }
       ]
