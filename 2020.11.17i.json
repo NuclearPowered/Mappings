@@ -101,6 +101,20 @@
           "mapped": "BeginCrewmate"
         }
       ]
+    },
+    {
+      "original": "^",
+      "mapped": "SaveManager",
+      "methods": [
+        {
+          "original": "FDBMJJMHBBK",
+          "mapped": "LoadPlayerPrefs"
+        },
+        {
+          "original": "ADAKJNJKDPK",
+          "mapped": "SavePlayerPrefs"
+        }
+      ]
     }
   ]
 }
