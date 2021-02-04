@@ -117,6 +117,60 @@
           "mapped": "SavePlayerPrefs"
         }
       ]
+    },
+    {
+      "original": "^",
+      "mapped": "PlayerPhysics",
+      "methods": [
+        {
+          "original": "HHDAANLEGPD",
+          "mapped": "HandleAnimation"
+        }
+      ]
+    },
+    {
+      "original": "^",
+      "mapped": "FollowerCamera",
+      "methods": [
+        {
+          "original": "LGGOFPNIKLP",
+          "mapped": "SetTarget"
+        }
+      ]
+    },
+    {
+      "original": "^",
+      "mapped": "GameOptionsData",
+      "methods": [
+        {
+          "original": "CKKJMLEDCJB",
+          "mapped": "ToHUDString"
+        }
+      ]
+    },
+    {
+      "original": "^",
+      "mapped": "PlayerTab",
+      "methods": [
+        {
+          "original": "MJNDNPEPLAH",
+          "mapped": "SelectColor"
+        }
+      ]
+    },
+    {
+      "original": "^",
+      "mapped": "KeySlotBehaviour",
+      "methods": [
+        {
+          "original": "CIAMDNLJPBO",
+          "mapped": "SetHighlight"
+        },
+        {
+          "original": "DDIMNNDPDGA",
+          "mapped": "SetInserted"
+        }
+      ]
     }
   ]
 }
