@@ -76,6 +76,10 @@
           "notes": "Only method with [CallerCount(1)] and void (byte[])",
           "original": "OJPCECLPCCF",
           "mapped": "SetInfected"
+        },
+        {
+          "original": "EDAHCGIIGEC",
+          "mapped": "ClearTasks"
         }
       ]
     },
