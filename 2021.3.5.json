@@ -1,0 +1,714 @@
+{
+  "$schema": "./mappings.schema.json",
+  "types": [
+    {
+      "original": "^",
+      "mapped": "Constants",
+      "fields": [
+        {
+          "original": 0,
+          "mapped": "GamePlayPort"
+        },
+        {
+          "original": 1,
+          "mapped": "AnnouncementPort"
+        },
+        {
+          "original": 2,
+          "mapped": "ShipOnlyMask"
+        },
+        {
+          "original": 3,
+          "mapped": "ShipAndObjectsMask"
+        },
+        {
+          "original": 4,
+          "mapped": "ShipAndAllObjectsMask"
+        },
+        {
+          "original": 5,
+          "mapped": "NotShipMask"
+        },
+        {
+          "original": 6,
+          "mapped": "Usables"
+        },
+        {
+          "original": 7,
+          "mapped": "PlayersOnlyMask"
+        },
+        {
+          "original": 8,
+          "mapped": "ShadowMask"
+        },
+        {
+          "original": 9,
+          "mapped": "CompatVersions"
+        },
+        {
+          "original": 10,
+          "mapped": "Year"
+        },
+        {
+          "original": 11,
+          "mapped": "Month"
+        },
+        {
+          "original": 12,
+          "mapped": "Day"
+        },
+        {
+          "original": 13,
+          "mapped": "Revision"
+        },
+        {
+          "original": 14,
+          "mapped": "PrivacyPolicyVersion"
+        },
+        {
+          "original": 15,
+          "mapped": "LocalNetAddress"
+        },
+        {
+          "original": 16,
+          "mapped": "InfinitySymbol"
+        }
+      ]
+    },
+    {
+      "original": "^",
+      "mapped": "Palette",
+      "fields": [
+        {
+          "original": 0,
+          "mapped": "DisabledGrey"
+        },
+        {
+          "original": 1,
+          "mapped": "DisabledColor"
+        },
+        {
+          "original": 2,
+          "mapped": "EnabledColor"
+        },
+        {
+          "original": 3,
+          "mapped": "Black"
+        },
+        {
+          "original": 4,
+          "mapped": "ClearWhite"
+        },
+        {
+          "original": 5,
+          "mapped": "HalfWhite"
+        },
+        {
+          "original": 6,
+          "mapped": "White"
+        },
+        {
+          "original": 7,
+          "mapped": "LightBlue"
+        },
+        {
+          "original": 8,
+          "mapped": "Blue"
+        },
+        {
+          "original": 9,
+          "mapped": "Orange"
+        },
+        {
+          "original": 10,
+          "mapped": "Purple"
+        },
+        {
+          "original": 11,
+          "mapped": "Brown"
+        },
+        {
+          "original": 12,
+          "mapped": "CrewmateBlue"
+        },
+        {
+          "original": 13,
+          "mapped": "ImpostorRed"
+        },
+        {
+          "original": 14,
+          "mapped": "ShortColorNames"
+        },
+        {
+          "original": 15,
+          "mapped": "ColorNames"
+        },
+        {
+          "original": 16,
+          "mapped": "PlayerColors"
+        },
+        {
+          "original": 17,
+          "mapped": "ShadowColors"
+        },
+        {
+          "original": 18,
+          "mapped": "VisorColor"
+        }
+      ]
+    },
+    {
+      "original": "GameData",
+      "nested": [
+        {
+          "original": "^",
+          "mapped": "PlayerInfo",
+          "properties": [
+            {
+              "original": 1,
+              "mapped": "Object"
+            }
+          ],
+          "fields": [
+            {
+              "original": 0,
+              "mapped": "PlayerId"
+            },
+            {
+              "original": 1,
+              "mapped": "PlayerName"
+            },
+            {
+              "original": 3,
+              "mapped": "ColorId"
+            },
+            {
+              "original": 4,
+              "mapped": "HatId"
+            },
+            {
+              "original": 5,
+              "mapped": "PetId"
+            },
+            {
+              "original": 6,
+              "mapped": "SkinId"
+            },
+            {
+              "original": 7,
+              "mapped": "Disconnected"
+            },
+            {
+              "original": 8,
+              "mapped": "Tasks"
+            },
+            {
+              "original": 9,
+              "mapped": "IsImpostor"
+            },
+            {
+              "original": 10,
+              "mapped": "IsDead"
+            },
+            {
+              "original": 11,
+              "mapped": "_object"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "original": "^",
+      "mapped": "GameCode",
+      "methods": [
+        {
+          "original": 0,
+          "mapped": "IntToGameName"
+        },
+        {
+          "original": 1,
+          "mapped": "GameNameToInt"
+        },
+        {
+          "original": 2,
+          "mapped": "CreateGameId"
+        },
+        {
+          "original": 3,
+          "mapped": "IntToGameNameV2"
+        }
+      ]
+    },
+    {
+      "original": "^",
+      "mapped": "SaveManager",
+      "fields": [
+        {
+          "original": 0,
+          "mapped": "loaded"
+        },
+        {
+          "original": 1,
+          "mapped": "loadedStats"
+        },
+        {
+          "original": 2,
+          "mapped": "loadedAnnounce"
+        },
+        {
+          "original": 4,
+          "mapped": "lastPlayerName"
+        },
+        {
+          "original": 5,
+          "mapped": "sfxVolume"
+        },
+        {
+          "original": 6,
+          "mapped": "musicVolume"
+        },
+        {
+          "original": 7,
+          "mapped": "showMinPlayerWarning"
+        },
+        {
+          "original": 8,
+          "mapped": "showOnlineHelp"
+        },
+        {
+          "original": 9,
+          "mapped": "showAdsScreen"
+        },
+        {
+          "original": 10,
+          "mapped": "privacyPolicyVersion"
+        },
+        {
+          "original": 16,
+          "mapped": "vsync"
+        },
+        {
+          "original": 17,
+          "mapped": "censorChat"
+        },
+        {
+          "original": 20,
+          "mapped": "joyStickSize"
+        },
+        {
+          "original": 21,
+          "mapped": "colorConfig"
+        },
+        {
+          "original": 22,
+          "mapped": "lastPet"
+        },
+        {
+          "original": 23,
+          "mapped": "lastHat"
+        },
+        {
+          "original": 24,
+          "mapped": "lastSkin"
+        },
+        {
+          "original": 25,
+          "mapped": "lastLanguage"
+        },
+        {
+          "original": 26,
+          "mapped": "hostOptionsData"
+        },
+        {
+          "original": 27,
+          "mapped": "searchOptionsData"
+        },
+        {
+          "original": 28,
+          "mapped": "lastAnnounce"
+        },
+        {
+          "original": 31,
+          "mapped": "purchaseFile"
+        },
+        {
+          "original": 32,
+          "mapped": "purchases"
+        }
+      ],
+      "properties": [
+        {
+          "original": 0,
+          "mapped": "LastAnnouncement"
+        },
+        {
+          "original": 2,
+          "mapped": "VSync"
+        },
+        {
+          "original": 3,
+          "mapped": "ChatType"
+        },
+        {
+          "original": 4,
+          "mapped": "CensorChat"
+        },
+        {
+          "original": 12,
+          "mapped": "ShowMinPlayerWarning"
+        },
+        {
+          "original": 13,
+          "mapped": "ShowOnlineHelp"
+        },
+        {
+          "original": 14,
+          "mapped": "SfxVolume"
+        },
+        {
+          "original": 15,
+          "mapped": "MusicVolume"
+        },
+        {
+          "original": 16,
+          "mapped": "ControlMode"
+        },
+        {
+          "original": 17,
+          "mapped": "JoystickSize"
+        },
+        {
+          "original": 18,
+          "mapped": "PlayerName"
+        },
+        {
+          "original": 19,
+          "mapped": "LastPet"
+        },
+        {
+          "original": 20,
+          "mapped": "LastHat"
+        },
+        {
+          "original": 21,
+          "mapped": "LastSkin"
+        },
+        {
+          "original": 22,
+          "mapped": "LastLanguage"
+        },
+        {
+          "original": 23,
+          "mapped": "BodyColor"
+        },
+        {
+          "original": 24,
+          "mapped": "GameHostOptions"
+        },
+        {
+          "original": 25,
+          "mapped": "GameSearchOptions"
+        }
+      ]
+    },
+    {
+      "original": "^",
+      "mapped": "InnerNetClient",
+      "fields": [
+        {
+          "original": 2,
+          "mapped": "DataFlag"
+        },
+        {
+          "original": 3,
+          "mapped": "RpcFlag"
+        },
+        {
+          "original": 4,
+          "mapped": "SpawnFlag"
+        },
+        {
+          "original": 5,
+          "mapped": "DespawnFlag"
+        },
+        {
+          "original": 6,
+          "mapped": "SceneChangeFlag"
+        },
+        {
+          "original": 7,
+          "mapped": "ReadyFlag"
+        },
+        {
+          "original": 8,
+          "mapped": "ChangeSettingsFlag"
+        },
+        {
+          "original": 9,
+          "mapped": "ClientInfoFlag"
+        },
+        {
+          "original": 10,
+          "mapped": "PS4BullshitFlag"
+        },
+        {
+          "original": 14,
+          "mapped": "NetIdCnt"
+        },
+        {
+          "original": 15,
+          "mapped": "timer"
+        },
+        {
+          "original": 18,
+          "mapped": "InOnlineScene"
+        },
+        {
+          "original": 19,
+          "mapped": "DestroyedObjects"
+        },
+        {
+          "original": 21,
+          "mapped": "allObjectsFast"
+        },
+        {
+          "original": 22,
+          "mapped": "Streams"
+        },
+        {
+          "original": 24,
+          "mapped": "disconnectReasons"
+        },
+        {
+          "original": 25,
+          "mapped": "SecondsDelayBeforeDisconnect"
+        },
+        {
+          "original": 27,
+          "mapped": "networkAddress"
+        },
+        {
+          "original": 28,
+          "mapped": "networkPort"
+        },
+        {
+          "original": 29,
+          "mapped": "connection"
+        },
+        {
+          "original": 37,
+          "mapped": "PreSpawnDispatcher"
+        },
+        {
+          "original": 38,
+          "mapped": "Dispatcher"
+        },
+        {
+          "original": 41,
+          "mapped": "TempQueue"
+        },
+        {
+          "original": 42,
+          "mapped": "appPaused"
+        }
+      ]
+    },
+    {
+      "original": "GameStartManager",
+      "fields": [
+        {
+          "original": 0,
+          "mapped": "CountdownDuration"
+        },
+        {
+          "original": 3,
+          "mapped": "LastPlayerCount"
+        },
+        {
+          "original": 13,
+          "mapped": "startState"
+        },
+        {
+          "original": 14,
+          "mapped": "countDownTimer"
+        }
+      ]
+    },
+    {
+      "original": "ServerManager",
+      "nested": [
+        {
+          "original": "ServerManager/JsonServerData",
+          "fields": [
+            {
+              "original": 0,
+              "mapped": "CurrentRegionIdx"
+            },
+            {
+              "original": 1,
+              "mapped": "Regions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "original": "KeyMinigame",
+      "fields": [
+        {
+          "original": 1,
+          "mapped": "keyState"
+        },
+        {
+          "original": 6,
+          "mapped": "targetSlotId"
+        },
+        {
+          "original": 7,
+          "mapped": "controller"
+        }
+      ]
+    },
+    {
+      "original": "PlayerControl",
+      "fields": [
+        {
+          "original": 0,
+          "mapped": "LastStartCounter"
+        },
+        {
+          "original": 6,
+          "mapped": "_cachedData"
+        },
+        {
+          "original": 14,
+          "mapped": "myLight"
+        },
+        {
+          "original": 21,
+          "mapped": "myRend"
+        },
+        {
+          "original": 22,
+          "mapped": "hitBuffer"
+        },
+        {
+          "original": 27,
+          "mapped": "closest"
+        },
+        {
+          "original": 28,
+          "mapped": "isNew"
+        },
+        {
+          "original": 32,
+          "mapped": "cache"
+        },
+        {
+          "original": 33,
+          "mapped": "itemsInRange"
+        },
+        {
+          "original": 34,
+          "mapped": "newItemsInRange"
+        },
+        {
+          "original": 35,
+          "mapped": "scannerCount"
+        },
+        {
+          "original": 36,
+          "mapped": "infectedSet"
+        }
+      ]
+    },
+    {
+      "original": "MeetingHud",
+      "fields": [
+        {
+          "original": 0,
+          "mapped": "ResultsTime"
+        },
+        {
+          "original": 1,
+          "mapped": "Depth"
+        },
+        {
+          "original": 7,
+          "mapped": "CounterOrigin"
+        },
+        {
+          "original": 8,
+          "mapped": "CounterOffsets"
+        },
+        {
+          "original": 10,
+          "mapped": "playerStates"
+        },
+        {
+          "original": 19,
+          "mapped": "state"
+        },
+        {
+          "original": 23,
+          "mapped": "exiledPlayer"
+        },
+        {
+          "original": 24,
+          "mapped": "wasTie"
+        },
+        {
+          "original": 27,
+          "mapped": "reporterId"
+        },
+        {
+          "original": 31,
+          "mapped": "amDead"
+        },
+        {
+          "original": 32,
+          "mapped": "resultsStartedAt"
+        },
+        {
+          "original": 33,
+          "mapped": "lastSecond"
+        }
+      ]
+    },
+    {
+      "original": "PlayerPhysics",
+      "fields": [
+        {
+          "original": 2,
+          "mapped": "body"
+        },
+        {
+          "original": 3,
+          "mapped": "Animator"
+        },
+        {
+          "original": 4,
+          "mapped": "rend"
+        },
+        {
+          "original": 5,
+          "mapped": "myPlayer"
+        }
+      ]
+    },
+    {
+      "original": "ExileController",
+      "fields": [
+        {
+          "original": 9,
+          "mapped": "completeString"
+        },
+        {
+          "original": 10,
+          "mapped": "exiled"
+        }
+      ]
+    }
+  ]
+}

@@ -1,103 +1,90 @@
 {
   "$schema": "./mappings.schema.json",
+  "dependsOn": [
+    "2021.3.5"
+  ],
   "types": [
     {
-      "original": "^",
-      "mapped": "MeetingHud",
+      "original": "MeetingHud",
       "methods": [
         {
           "notes": "MeetingHud#CastVote",
-          "original": "FDEOGELDDNB",
+          "original": "DAJHNNEIGMF",
           "mapped": "CheckForEndVoting"
         },
         {
-          "notes": "void (byte[], GameData.PlayerInfo, bool)",
-          "original": "CJJPNGLIKPG",
+          "notes": "MeetingHud#HandleRpc",
+          "original": "POHPOLDAKPM",
           "mapped": "VotingComplete"
         },
         {
           "notes": "MeetingHud#VotingComplete",
-          "original": "HNKODEOFMHJ",
+          "original": "PMCANADEIGP",
           "mapped": "PopulateResults"
         },
         {
           "notes": "MeetingHud#VotingComplete",
-          "original": "DOKALIBCJAN",
+          "original": "EFLKNKKGHCI",
           "mapped": "SetupProceedButton"
         }
       ]
     },
     {
-      "original": "^",
-      "mapped": "ShipStatus",
+      "original": "ShipStatus",
       "methods": [
         {
           "notes": "ShipStatus#FixedUpdate",
-          "original": "COMGOKDBOMH",
+          "original": "HKAHCECCNBK",
           "mapped": "CheckEndCriteria"
         },
         {
           "notes": "CheckEndCriteria",
-          "original": "OLCLMBLFEJJ",
+          "original": "BHHFOANFBNF",
           "mapped": "RpcEndGame"
         },
         {
-          "original": "CANBADGMALM",
+          "original": "KODBJNAEGOD",
           "mapped": "SelectInfected"
         }
       ]
     },
     {
-      "original": "^",
-      "mapped": "ServerManager",
+      "original": "PlayerControl",
       "methods": [
         {
-          "notes": "Last call in ServerManager#Awake",
-          "original": "LEDMLBCFNMP",
-          "mapped": "LoadServers"
-        }
-      ]
-    },
-    {
-      "original": "^",
-      "mapped": "PlayerControl",
-      "methods": [
-        {
-          "original": "POFAKNIFLNL",
+          "original": "MJBDDNIABAM",
           "mapped": "FindClosestTarget"
         },
         {
           "notes": "first call in CmdReportDeadBody",
-          "original": "NOBBNMOGIAE",
+          "original": "AMPIGFMHGBM",
           "mapped": "ReportDeadBody"
         },
         {
-          "original": "LJCEMLLOIKB",
+          "original": "MAFDKHHIBID",
           "mapped": "SetInfected"
         }
       ]
     },
     {
-      "original": "^",
-      "mapped": "EndGameManager",
+      "original": "EndGameManager",
       "methods": [
         {
           "notes": "first call in EndGameManager#Start",
-          "original": "NJEDFELIJKE",
+          "original": "BPHOLDGAGHI",
           "mapped": "SetEverythingUp"
         }
       ]
     },
     {
-      "original": "^",
-      "mapped": "IntroCutscene",
+      "original": "IntroCutscene",
       "methods": [
         {
-          "original": "DLONAONDMHK",
+          "original": "OIJDFHNEBMM",
           "mapped": "BeginImpostor"
         },
         {
-          "original": "FFHNJEGBMFF",
+          "original": "BNAFNDOMAOJ",
           "mapped": "BeginCrewmate"
         }
       ]
@@ -107,11 +94,11 @@
       "mapped": "SaveManager",
       "methods": [
         {
-          "original": "FDBMJJMHBBK",
+          "original": "OEGDGJGCEDK",
           "mapped": "LoadPlayerPrefs"
         },
         {
-          "original": "ADAKJNJKDPK",
+          "original": "JPMCJGJFGCA",
           "mapped": "SavePlayerPrefs"
         }
       ]

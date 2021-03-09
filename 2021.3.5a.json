@@ -1,0 +1,7 @@
+{
+  "$schema": "./mappings.schema.json",
+  "dependsOn": [
+    "2021.3.5"
+  ],
+  "types": []
+}

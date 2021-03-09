@@ -95,6 +95,13 @@
     }
   },
   "properties": {
+    "dependsOn": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "$ref": "#/definitions/type"
+      }
+    },
     "types": {
       "type": "array",
       "items": {
