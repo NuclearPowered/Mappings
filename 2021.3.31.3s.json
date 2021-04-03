@@ -1,7 +1,7 @@
 {
   "$schema": "./mappings.schema.json",
   "dependsOn": [
-    "2021.3.5"
+    "2021.3.31.3"
   ],
   "types": [
     {
@@ -9,22 +9,22 @@
       "methods": [
         {
           "notes": "MeetingHud#CastVote",
-          "original": "LMKMMBNCGON",
+          "original": "CDLGIAMFHBH",
           "mapped": "CheckForEndVoting"
         },
         {
           "notes": "MeetingHud#HandleRpc",
-          "original": "NKCJLIIMPMA",
+          "original": "MJIJGEBBMAO",
           "mapped": "VotingComplete"
         },
         {
           "notes": "MeetingHud#VotingComplete",
-          "original": "MLDBINIIODM",
+          "original": "OMFOBKIENPI",
           "mapped": "PopulateResults"
         },
         {
           "notes": "MeetingHud#VotingComplete",
-          "original": "ONMGGHEBCDA",
+          "original": "LCLCABKFPAJ",
           "mapped": "SetupProceedButton"
         }
       ]
@@ -34,16 +34,16 @@
       "methods": [
         {
           "notes": "ShipStatus#FixedUpdate",
-          "original": "GPGIEMOMBAD",
+          "original": "NBEBPPBCGLJ",
           "mapped": "CheckEndCriteria"
         },
         {
           "notes": "CheckEndCriteria",
-          "original": "JKKCNFHCNPK",
+          "original": "PBKIGLMJEDH",
           "mapped": "RpcEndGame"
         },
         {
-          "original": "DBELLANPNCB",
+          "original": "GDFEKKKEPKI",
           "mapped": "SelectInfected"
         }
       ]
@@ -52,16 +52,16 @@
       "original": "PlayerControl",
       "methods": [
         {
-          "original": "BODPLFHGMOK",
+          "original": "NJMEFIKPJDG",
           "mapped": "FindClosestTarget"
         },
         {
           "notes": "first call in CmdReportDeadBody",
-          "original": "IBNLJFKNNNA",
+          "original": "AGANIGJHGNB",
           "mapped": "ReportDeadBody"
         },
         {
-          "original": "CKPPBLNHHPD",
+          "original": "POIAKGCEDBB",
           "mapped": "SetInfected"
         }
       ]
@@ -71,21 +71,8 @@
       "methods": [
         {
           "notes": "first call in EndGameManager#Start",
-          "original": "MOHJHJNCKGM",
+          "original": "BIGANIAENKO",
           "mapped": "SetEverythingUp"
-        }
-      ]
-    },
-    {
-      "original": "IntroCutscene",
-      "methods": [
-        {
-          "original": "PFKNLCKBHOH",
-          "mapped": "BeginImpostor"
-        },
-        {
-          "original": "FDHFEEOKPFN",
-          "mapped": "BeginCrewmate"
         }
       ]
     },
@@ -94,11 +81,11 @@
       "mapped": "SaveManager",
       "methods": [
         {
-          "original": "IIAMLMNLAMI",
+          "original": "IOHNKHIHFFF",
           "mapped": "LoadPlayerPrefs"
         },
         {
-          "original": "GOPAHKENJMF",
+          "original": "JAFGNGDBGPE",
           "mapped": "SavePlayerPrefs"
         }
       ]
