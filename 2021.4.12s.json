@@ -1,0 +1,5 @@
+{
+  "$schema": "./mappings.schema.json",
+  "beebyte": "2021.4.12s.beebyte",
+  "useGenerator": false
+}

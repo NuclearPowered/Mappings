@@ -102,6 +102,12 @@
         "$ref": "#/definitions/type"
       }
     },
+    "beebyte": {
+      "type": "string"
+    },
+    "useGenerator": {
+      "type": "boolean"
+    },
     "types": {
       "type": "array",
       "items": {
@@ -112,8 +118,5 @@
         "original"
       ]
     }
-  },
-  "required": [
-    "types"
-  ]
+  }
 }
